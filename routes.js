@@ -1,4 +1,4 @@
-const { Router } = require('express');
+const { Router } = require('express'); //express que é o coração das nossas rotas
 const productController = require('./src/controller/product');
 
 const routes = Router();
